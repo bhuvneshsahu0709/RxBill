@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+// ─── Glass Morphism ──────────────────────────────
+@mixin glass($bg: $glass-bg) {
+  background: $bg;
+  backdrop-filter: $glass-blur;
+  -webkit-backdrop-filter: $glass-blur;
+  border: $glass-border;
+  box-shadow: $glass-shadow;
+}
+
+// ─── Gradient Text ───────────────────────────────
+@mixin gradient-text($grad: $gradient-text) {
+  background: $grad;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// ─── Hover Lift ──────────────────────────────────
+@mixin hover-lift($amount: 3px) {
+  transition: $t-base;
+  &:hover {
+    transform: translateY(-#{$amount});
+    box-shadow: $glass-shadow-xl;
+  }
+}
+
+// ─── Flex Helpers ────────────────────────────────
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// ─── Responsive Breakpoint ───────────────────────
+@mixin respond-below($bp) {
+  @media (max-width: #{$bp}) { @content; }
+}
+
+// ─── Truncate ────────────────────────────────────
+@mixin truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

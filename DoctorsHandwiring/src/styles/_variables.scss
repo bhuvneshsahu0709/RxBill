@@ -1,0 +1,77 @@
+// ─── Brand Colors ────────────────────────────────
+$color-primary:       #667eea;
+$color-primary-dark:  #4c63d2;
+$color-primary-light: #9bb5ff;
+$color-secondary:     #764ba2;
+$color-secondary-dark: #5a3a7a;
+$color-secondary-light: #a478d4;
+
+// ─── Gradients ───────────────────────────────────
+$gradient-brand:     linear-gradient(135deg, $color-primary 0%, $color-secondary 100%);
+$gradient-hover:     linear-gradient(135deg, #5468e0 0%, #6a3fa0 100%);
+$gradient-text:      linear-gradient(45deg, $color-primary, $color-secondary);
+$gradient-hero:      linear-gradient(135deg, rgba(102,126,234,0.3) 0%, rgba(118,75,162,0.3) 100%);
+
+// ─── Glass Morphism ──────────────────────────────
+$glass-bg-faint:     rgba(255, 255, 255, 0.07);
+$glass-bg-weak:      rgba(255, 255, 255, 0.12);
+$glass-bg:           rgba(255, 255, 255, 0.18);
+$glass-bg-strong:    rgba(255, 255, 255, 0.26);
+$glass-border:       1px solid rgba(255, 255, 255, 0.22);
+$glass-blur:         blur(14px);
+$glass-shadow:       0 8px 32px rgba(31, 38, 135, 0.37);
+$glass-shadow-xl:    0 16px 48px rgba(31, 38, 135, 0.52);
+
+// ─── Semantic Colors ─────────────────────────────
+$color-success:      #4caf50;
+$color-warning:      #ff9800;
+$color-error:        #f44336;
+$color-info:         #2196f3;
+
+$bg-error:           rgba(244, 67, 54, 0.12);
+$bg-error-border:    rgba(244, 67, 54, 0.35);
+$bg-success:         rgba(76, 175, 80, 0.12);
+$bg-success-border:  rgba(76, 175, 80, 0.35);
+
+// ─── Spacing Scale ───────────────────────────────
+$sp-1: 4px;
+$sp-2: 8px;
+$sp-3: 12px;
+$sp-4: 16px;
+$sp-5: 20px;
+$sp-6: 24px;
+$sp-8: 32px;
+$sp-10: 40px;
+$sp-12: 48px;
+
+// ─── Border Radius ───────────────────────────────
+$r-sm:   8px;
+$r-md:   12px;
+$r-lg:   18px;
+$r-xl:   24px;
+$r-full: 9999px;
+
+// ─── Typography ──────────────────────────────────
+$font-base:        'Inter', 'Segoe UI', 'Roboto', sans-serif;
+$fw-regular:       400;
+$fw-medium:        500;
+$fw-semibold:      600;
+$fw-bold:          700;
+$fw-extrabold:     800;
+
+// ─── Transitions ─────────────────────────────────
+$t-fast:   all 0.15s ease;
+$t-base:   all 0.3s ease;
+$t-slow:   all 0.5s ease;
+
+// ─── Z-index ─────────────────────────────────────
+$z-bg:      -1;
+$z-base:     1;
+$z-header:  10;
+$z-modal:  100;
+
+// ─── Breakpoints ─────────────────────────────────
+$bp-sm:  576px;
+$bp-md:  768px;
+$bp-lg: 1024px;
+$bp-xl: 1280px;

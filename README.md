@@ -15,6 +15,13 @@
 
 ---
 
+## Screenshots
+
+<img width="1919" height="917" alt="Screenshot 2026-06-13 010926" src="https://github.com/user-attachments/assets/c2a00923-79fc-49bf-ab4d-6174d23a8a3c" />
+<img width="1919" height="922" alt="Screenshot 2026-06-13 010917" src="https://github.com/user-attachments/assets/e5958708-09ae-4d4e-9def-637b6bce0295" />
+<img width="1919" height="904" alt="Screenshot 2026-06-13 010904" src="https://github.com/user-attachments/assets/e1a0b29f-c0d7-4bc4-9279-b9c8013e75cd" />
+
+
 ## 🌟 Features
 
 ### 🔍 **AI-Powered Prescription Analysis**
